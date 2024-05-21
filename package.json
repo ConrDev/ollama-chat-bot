@@ -1,0 +1,26 @@
+{
+  "name": "botje",
+  "version": "1.0.0",
+  "description": "ai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run local && npm run start",
+    "local": "docker-compose up -d",
+    "start": "node ./index.js"
+  },
+  "author": "ConrDev",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.0.0",
+    "discord-api-types": "^0.37.82",
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.4.5",
+    "node": "^22.0.0",
+    "node-fetch": "^3.3.2",
+    "ollama": "^0.5.0",
+    "pagination.djs": "^4.0.14",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
